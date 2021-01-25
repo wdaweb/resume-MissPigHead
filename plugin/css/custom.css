@@ -366,6 +366,11 @@ main, footer {
   display:block;
 }
 
+#sendMsg input:focus::placeholder, #sendMsg textarea:focus::placeholder{
+  font-weight: 600;
+  transform: scale(0.7) translate(-20%,-70%);
+}
+
 #sendMsg input[type=submit]{
   background: #fceeb1;
   color: var(--pink08);
